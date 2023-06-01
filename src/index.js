@@ -2,9 +2,8 @@ import App from './App'
 import React from 'react'
 import { RecoilRoot } from 'recoil'
 import ReactDOM from 'react-dom/client'
-import reportWebVitals from './reportWebVitals'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './shared-style.scss'
+import './Styles/shared-style.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,4 +14,4 @@ root.render(
   </React.StrictMode>
 );
 
-reportWebVitals();
+
