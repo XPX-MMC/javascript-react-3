@@ -17,17 +17,8 @@ export const DrinkPage = () => {
 								width='800px'
 								rounded={true}
 								fluid={true}
-								src='milk.jpg'
-								alt='milk'
-							/>
-							<br />
-							<br />
-							<Image
-								width='800px'
-								rounded={true}
-								fluid={true}
-								src='coffee.jpg'
-								alt='coffee'
+								src='lemonade.jpg'
+								alt='lemonade'
 							/>
 							<br />
 							<br />
@@ -44,8 +35,17 @@ export const DrinkPage = () => {
 								width='800px'
 								rounded={true}
 								fluid={true}
-								src='lemonade.jpg'
-								alt='lemonade'
+								src='coffee.jpg'
+								alt='coffee'
+							/>
+							<br />
+							<br />
+							<Image
+								width='800px'
+								rounded={true}
+								fluid={true}
+								src='milk.jpg'
+								alt='milk'
 							/>
 						</div>
 					</div>

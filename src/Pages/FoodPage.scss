@@ -1,16 +1,24 @@
 @use '../Styles/shared-style' as ss;
 
 .FoodPage {
-    padding: 5px;
-    background-color:ss.$main-color-1;
-    .FoodPage_Header {
-        margin-top: 8px;
-        border-radius: 5px;
-        background-color:ss.$white-color-3;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 5px;
-        font-size: 160%;
-        font-family: 'Merriweather Sans', sans-serif;
-    }
+	padding: 5px;
+	background-color: ss.$main-color-1;
+	.FoodPage_Header {
+		margin-top: 8px;
+		border-radius: 5px;
+		background-color: ss.$white-color-3;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 5px;
+		font-size: 160%;
+		font-family: 'Merriweather Sans', sans-serif;
+	}
+	.FoodPage_Content {
+		display: flex;
+		justify-content: center;
+	}
+	.FoodPage_Pix {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
 }
